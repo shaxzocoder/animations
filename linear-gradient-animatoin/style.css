@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100vh;
+    background: linear-gradient(120deg , red , orange,yellow);
+    background-size: 200%;
+    background-position: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    text-transform: capitalize;
+    font-size: 2rem;
+    transition: 350ms ease;
+    color: #fff;
+    animation: qimila 7s ease infinite;
+}
+.hehe{
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.61);
+}
+
+h1  {
+    background: linear-gradient(120deg ,yellow  , orange,red);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: qimila 7s infinite ease-in-out;
+    background-size: 400%;
+}
+
+@keyframes qimila {
+    50%{
+        background-position: right;
+    }
+}
